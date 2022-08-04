@@ -17,13 +17,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="1.4.0"
-                      Condition="'$(RazorRuntimeCompilation)' == 'true'" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="1.4.0" Condition="'$(RazorRuntimeCompilation)' == 'true'" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="OrchardCore.Logging.Serilog" Version="1.4.0" />
     <PackageReference Include="OrchardCore.Application.Cms.Targets" Version="1.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SakuraIsyeki.Blossom.Theme\SakuraIsyeki.Blossom.Theme.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SakuraIsayeki.Blossom", "SakuraIsayeki.Blossom.csproj", "{A12891CA-D729-4C7D-9E6F-53D9168AA903}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SakuraIsayeki.Blossom", "SakuraIsayeki.Blossom/SakuraIsayeki.Blossom.csproj", "{A12891CA-D729-4C7D-9E6F-53D9168AA903}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SakuraIsyeki.Blossom.Theme", "SakuraIsyeki.Blossom.Theme\SakuraIsyeki.Blossom.Theme.csproj", "{43F30F62-41C4-4E00-B13A-EA221EE4C5BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +14,9 @@ Global
 		{A12891CA-D729-4C7D-9E6F-53D9168AA903}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A12891CA-D729-4C7D-9E6F-53D9168AA903}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A12891CA-D729-4C7D-9E6F-53D9168AA903}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43F30F62-41C4-4E00-B13A-EA221EE4C5BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F30F62-41C4-4E00-B13A-EA221EE4C5BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F30F62-41C4-4E00-B13A-EA221EE4C5BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43F30F62-41C4-4E00-B13A-EA221EE4C5BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
