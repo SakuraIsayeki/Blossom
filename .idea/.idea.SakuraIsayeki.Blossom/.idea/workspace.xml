@@ -10,14 +10,133 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb7cd938-8878-4161-9239-ad073655a29a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SakuraIsayeki.Blossom.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SakuraIsayeki.Blossom.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SakuraIsayeki.Blossom.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/.placeholder" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/dist/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/dist/assets/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/dist/assets/img/about-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/dist/assets/img/contact-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/dist/assets/img/home-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/dist/assets/img/post-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/dist/assets/img/post-sample-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/dist/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/dist/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/dist/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/dist/post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/scripts/build-assets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/scripts/build-pug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/scripts/build-scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/scripts/build-scss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/scripts/clean.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/scripts/render-assets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/scripts/render-pug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/scripts/render-scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/scripts/render-scss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/scripts/sb-watch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/scripts/start-debug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/scripts/start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/assets/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/assets/img/about-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/assets/img/contact-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/assets/img/home-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/assets/img/post-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/assets/img/post-sample-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/pug/about.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/pug/contact.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/pug/includes/css.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/pug/includes/footer.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/pug/includes/navbar.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/pug/includes/scripts.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/pug/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/pug/post.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/scss/_global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/scss/bootstrap-oc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/scss/components/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/scss/components/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/scss/components/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/scss/modules/_flow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/scss/modules/_messages.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/scss/modules/_pager.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/scss/modules/_taxonomy.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/scss/modules/_widgets.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/scss/sections/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/scss/sections/_masthead.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/scss/sections/_post.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/scss/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/scss/variables/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/scss/variables/_colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/scss/variables/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/scss/variables/_options.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/scss/variables/_overlay.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Assets/src/scss/variables/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Recipes/Snippets/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Recipes/Snippets/recentBlogPosts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Recipes/blog.lucene.query.recipe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Recipes/blog.lucene.search.recipe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Recipes/blog.recipe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/ResourceManifestOptionsConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Startup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Views/Blog-ListPart.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Views/BlogPost-Category.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Views/BlogPost-Tags-TaxonomyField-Tags.Display.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Views/Category-TermPart.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Views/Content-Article.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Views/Content-Blog.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Views/Content-BlogPost.Summary.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Views/Content-BlogPost.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Views/Content-Category.Summary.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Views/Content-Category.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Views/Content.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Views/Menu.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Views/MenuItem.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Views/MenuItemLink-ContentMenuItem.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Views/MenuItemLink-HtmlMenuItem.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Views/MenuItemLink-LinkMenuItem.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Views/Search-Form.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Views/Search-Results.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Views/Shared/NotFound.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Views/Shared/Search.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Views/Tag-TermPart.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Views/Term-Category.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Views/TermContentItem-Tag.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Views/TermItem-Category.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Views/Widget-Blockquote.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Views/Widget-Image.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Views/Widget-Paragraph.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Views/Widget-RawHtml.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Views/Widget.Wrapper-Zone-HeadMeta.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/wwwroot/Theme.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/wwwroot/assets/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/wwwroot/assets/img/about-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/wwwroot/assets/img/contact-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/wwwroot/assets/img/home-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/wwwroot/assets/img/post-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/wwwroot/assets/img/post-sample-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/wwwroot/assets/mail/contact_me.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/wwwroot/assets/mail/contact_me.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/wwwroot/assets/mail/jqBootstrapValidation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/wwwroot/css/bootstrap-oc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/wwwroot/css/bootstrap-oc.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/wwwroot/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/wwwroot/css/styles.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/wwwroot/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/wwwroot/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/wwwroot/js/scripts.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SakuraIsayeki.Blossom/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SakuraIsayeki.Blossom/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SakuraIsayeki.Blossom/SakuraIsayeki.Blossom.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SakuraIsayeki.Blossom/SakuraIsayeki.Blossom.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Manifest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Manifest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Views/Layout.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/Views/Layout.liquid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/obj/Debug/net6.0/SakuraIsyeki.Blossom.Theme.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/obj/Debug/net6.0/SakuraIsyeki.Blossom.Theme.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/obj/Debug/net6.0/SakuraIsyeki.Blossom.Theme.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SakuraIsyeki.Blossom.Theme/obj/Debug/net6.0/SakuraIsyeki.Blossom.Theme.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +184,7 @@
       </method>
     </configuration>
     <configuration name="SakuraIsayeki.Blossom" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
-      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/SakuraIsayeki.Blossom.csproj" />
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/SakuraIsayeki.Blossom/SakuraIsayeki.Blossom.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
       <option name="LAUNCH_PROFILE_NAME" value="SakuraIsayeki.Blossom" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -103,7 +222,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659632961577</updated>
-      <workItem from="1659632963457" duration="1782000" />
+      <workItem from="1659632963457" duration="3222000" />
     </task>
     <servers />
   </component>

@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="App_Data\Sites\Default\Media\_Users\4j7cvh55vrczvzj25jrvpmsk4m" />
     <Folder Include="wwwroot\" />
     <Folder Include="Localization\" />
   </ItemGroup>
@@ -27,6 +28,16 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SakuraIsyeki.Blossom.Theme\SakuraIsyeki.Blossom.Theme.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="App_Data\logs\orchard-log20220804.txt" />
+    <Content Include="App_Data\Sites\Default\appsettings.json" />
+    <Content Include="App_Data\Sites\Default\DataProtection-Keys\key-bef7e04e-459b-4fa1-b5ea-b367d671cd96.xml" />
+    <Content Include="App_Data\Sites\Default\Media\about-bg.jpg" />
+    <Content Include="App_Data\Sites\Default\Media\home-bg.jpg" />
+    <Content Include="App_Data\Sites\Default\Media\post-bg.jpg" />
+    <Content Include="App_Data\tenants.json" />
   </ItemGroup>
 
 </Project>

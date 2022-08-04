@@ -6,4 +6,5 @@ using OrchardCore.DisplayManagement.Manifest;
     Website = "https://sakura.ovh",
     Version = "1.0",
     Description = "Orchard Core Theme for The Blossom blog"
+    Tags = new[] { "Blog", "Bootstrap", "Liquid" }
 )]
